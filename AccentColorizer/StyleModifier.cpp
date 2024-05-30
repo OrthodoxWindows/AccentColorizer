@@ -593,7 +593,7 @@ void ModifyStyles()
 	}
 	/////////////////////////////////////////////////////
 
-	if (g_winver < WIN_8)
+	if (g_winver <= WIN_10)
 	{
 		SetCurrentTheme(L"TaskDialog");
 		//
